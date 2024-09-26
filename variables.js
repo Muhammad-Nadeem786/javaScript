@@ -1,18 +1,23 @@
-//In java script there are three type of variableb 
-//let 
-//var
-//const
+ //there are three type  of variables in javascript
+ //let
+ //const
+ //var
 
-let a = 3;
-let b = 4;
-console.log(sun,a+b);
+ //var can be redeclared and re intiatized and reassigned value
+ var a = 33;
+ console.log(a);
+ var a = 55;
+ console.log(a);
 
-var name = "Muhammad Nadeem";
-var age = 22;
-var regno = 5;
-console.log(name,age,regno);
+ //let variable cannot be redeclared but can be assigned new value
 
-const num = 3;
-const num2 = 4;
-add = num + num2;
-console.log(add);
+ let num1 = 44;
+ console.log(num1);
+ num1 = 50;
+ console.log(num1);
+
+ //const variable cannot be redeclared and cannot be reassigned new value
+
+ const x = 22;
+  console.log(x);
+
